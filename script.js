@@ -5,7 +5,8 @@
    
   
     audio.play();
-    key.classlist.add('playing');
+    
     const key = document.querySelector('.key'); 
+    key.classlist.add('playing');
   });
    
